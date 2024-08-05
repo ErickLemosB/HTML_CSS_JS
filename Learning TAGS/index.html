@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>ATV 1 HTML TAGS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="content-box">
+  
+  <h1>Placa de aviso</h1>
+  
+  <div class="media-container">
+    
+    <img src="Assets/no_smoking.png" alt="Proibido Fumar!" id="image">
+  
+  </div>
+  <br>
+  <p class="centered">Descrição da imagem: Uma placa que avisa ser proibido fumar</p>
+  
+  <button class="play-button" id="playImageAudio"><img src="Assets/sound_icon.png" alt="Play Sound"></button>
+  
+</div>
+  
+
+  <div class="content-box">
+  
+  <h1>Cena de Frankenstein (1931) - O nascimento de Frankenstein (Dublado Pt-Br)</h1>
+  
+  <div class="media-container">
+    
+    <video src="Assets/Frankenstein (1931) - O Nascimento de Frankenstein (Dublado Pt-Br).mp4" type="video/mp4" controls id="video"></video>
+    
+ 
+  </div>
+  <p class="below-content">Descrição do vídeo: O cientista finalmente consegue dar vida a sua criação, e está delirando 
+    de animação pelo seu   
+    sucesso.<br>
+    Falas do vídeo:<br>
+    Cientista: "Está vivo!*risada* está vivo! , está vivo!, está vivo!, está vivo!"<br>
+    Homem 1: "Henry em nome de Deus!"<br>
+    Cientista: "Em nome de Deus! Agora eu sei como é ser Deus!"</p>
+    
+    <button class="play-button" id="playVideoAudio"><img src="Assets/sound_icon.png" alt="Play Sound"></button>
+    
+  </div>
+
+<div class="content-box">
+  <h1>Música: If I Could Ride a Bike · Park Bird · Chevy</h1>
+  
+  <div class="media-container">
+    
+    <audio src="Assets/If I Could Ride a Bike.mp3" type="audio/mp3" controls id="audio"></audio>
+    <button class="play-button" id="playMusicAudio"><img src="Assets/sound_icon.png" alt="Play Sound"></button>
+  
+  </div>
+  <p class="below-content">
+    Sobre:<br>
+    <br>
+    Artistas: Park Bird, Chevy<br>
+    Data de lançamento: 2019<br>
+    Álbum: If I Could Ride a Bike<br>
+    Gênero: Jazz<br>
+    <br>
+    Letras:<br>
+      <br>
+      If I could ride a bike<br>
+      I'd zoom around the world<br>
+      With you sitting there behind me<br>
+      I'll take you to places<br>
+      Pass several faces<br>
+      Just livin' life so carefree<br>
+      If I could sail a boat<br>
+      I'd cruise across the seas<br>
+      A sweet adventure for us two<br>
+      I'll be Jack, and you, Rose<br>
+      Just please don't let me go<br>
+      'Cause I'd be nothing without you<br>
+      Oh, when you call me<br>
+      I'm drifting on clouds<br>
+      Like I'm dreaming<br>
+      But in the morning<br>
+      I'll wake up and see that you're stuck<br>
+      Here with me<br>
+      Oh, when you call me<br>
+      I'm drifting on clouds<br>
+      Like I'm dreaming<br>
+      But in the morning<br>
+      I'll wake up and see that you're stuck<br>
+      Here with me<br>
+      If only you knew<br>
+      What I would do for you<br>
+      I'd jump up and hold you<br>
+      So tightly<br>
+      But I will never be<br>
+      Able to do these things<br>
+      So I'm just left imagining<br>
+  </p>
+</div>
+  <script src="script.js"></script>
+  
+  <!-- implementação da ferramenta de acessbilidade do Vlibras do GOV -->
+  <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+</body>
+</html>
